@@ -43,3 +43,31 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter build dosyaları
+build/
+android/
+ios/
+linux/
+macos/
+web/
+windows/
+
+# Flutter bağımlılık dosyaları
+.dart_tool/
+.pub/
+.packages
+
+# IDE dosyaları
+.idea/
+.vscode/
+
+# Test ve cache dosyaları
+test/
+*.lock
+*.log
+*.json
+
+# İstemediğin diğer dosyalar
+lib/mobilab.dart
+lib/widget_test.dart
