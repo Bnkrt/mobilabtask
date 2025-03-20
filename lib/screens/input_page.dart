@@ -7,9 +7,9 @@ class InputPage extends StatefulWidget {
   State<InputPage> createState() => _InputPageState();
 }
 class _InputPageState extends State<InputPage> {
-  int height = 168;
-  int weight = 63;
-  int age = 22;
+  int height = 165;
+  int weight = 60;
+  int age = 20;
   bool isMale = true;
   double calculateBMI() {
     double heightInMeters = height / 100;
